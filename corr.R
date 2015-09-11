@@ -32,9 +32,3 @@ for (i in data$ID) {
 }
 return (correlationVector)
 }
-
-
-
-
-
-}
