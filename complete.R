@@ -12,7 +12,7 @@ data <- csvFiles[[1]]
 # For each csvFile (after the first):
 for (f in 2:length(csvFiles)) {
 	# Merge dataframes by rows
-	data <- merge (data, csvFiles[[f]], all=TRUE)
+	data <- merge (data, csvFiles[[f]], all=TRUE, sort=FALSE)
 }
 ######## Generate the dataframe for the result
 results <- data.frame (id=numeric(), nobs=numeric())
