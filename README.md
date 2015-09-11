@@ -1,2 +1,0 @@
-# COURSERA
-Script for Coursera
